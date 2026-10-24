@@ -14,8 +14,6 @@
 
 </div>
 
-> **Timing.** The code and all experiments in this repository were built and run between 17 and 20 October 2026,
-> before the sprint (23–25 October 2026).
 
 ---
 
