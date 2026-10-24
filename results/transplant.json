@@ -1,0 +1,671 @@
+{
+  "payloads": {
+    "empty": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "transplant": [
+      {
+        "donor": "seed0/Firm A",
+        "plans": "Maintain 60 X units; add Y only if price >35. Otherwise keep Y at 0.",
+        "insights": "X yields $15 margin per unit at price 40. Y market remains saturated; adding Y likely depresses price. Continue X-only strategy for stable profit."
+      },
+      {
+        "donor": "seed3/Firm A",
+        "plans": "If X is available, keep Y at 60. If X changes to Y, switch to X at 60 next round. Avoid mixing unless forced.",
+        "insights": "High margin on Y. Stick to Y to maximize profit. Monitor for any change."
+      },
+      {
+        "donor": "seed4/Firm A",
+        "plans": "Continue 60 units of Y production; keep X production at 0 unless the price of Y falls below marginal cost. Monitor total supply for price changes. If the price of Y drops below 25, shift to X production up to the capacity limit.",
+        "insights": "The price of Y is stable at approximately 40, yielding a profit of about 15 per unit. No immediate price collapse is expected, so the current strategy should be maintained."
+      },
+      {
+        "donor": "seed9/Firm A",
+        "plans": "Continue Y60; if the price drops below 40, consider adjusting the strategy.",
+        "insights": "Y price remains at 40 with a margin of 15. Monitor any deviations to adjust strategy accordingly."
+      },
+      {
+        "donor": "seed12/Firm A",
+        "plans": "Continue 60 X units; monitor Y price for a sustained rise above 25 to consider switching to Y if profitable",
+        "insights": "X price remains at 40, well above MC 25, guaranteeing profit. Y price held at 40. No change unless Y price deviates."
+      },
+      {
+        "donor": "seed24/Firm A",
+        "plans": "Continue 60X if price \u226540; if price drops below 40 shift to Y. Consider reducing X output if market conditions suggest a price collapse.",
+        "insights": "Price likely stays around 40. Margin per X stays 15. Monitor any strategy shifts that could lower price."
+      }
+    ],
+    "control": [
+      {
+        "donor": "seed1/Firm A",
+        "plans": "Produce 60 Y units, 0 X units. If Y price drops below 35, shift 30 units to X and reduce Y to maintain profit margin. Keep total output at 60.",
+        "insights": "Y price at 40 gives $15 margin. Monitor for any drop in Y; if it falls, transition gradually to X to avoid price collapse while staying within capacity."
+      },
+      {
+        "donor": "seed2/Firm A",
+        "plans": "Maintain production level; if price drops below 50, reduce output.",
+        "insights": "Prices stable at 50 with total supply 100; no trend toward lower prices. Conservative output preserves margin."
+      },
+      {
+        "donor": "seed5/Firm A",
+        "plans": "Continue producing 30 units of X and 30 units of Y each round.",
+        "insights": "Prices remain above marginal cost (40>25), so full capacity utilization at 30/30 yields consistent profit. No incentive to deviate from balanced output."
+      },
+      {
+        "donor": "seed6/Firm A",
+        "plans": "Continue 60 X units, monitor Y price for future shift.",
+        "insights": "X price likely stays above MC; Y remains at MC. Stick to X until Y rises above 25."
+      },
+      {
+        "donor": "seed7/Firm A",
+        "plans": "Maintain 30 units of X and 30 units of Y to fully utilize capacity and keep costs predictable. Adjust only if market signals a significant shift in price.",
+        "insights": "Prices stable at 40, MC 25 yields $15 profit per unit. Current strategy maximizes profit with full capacity usage."
+      },
+      {
+        "donor": "seed8/Firm A",
+        "plans": "Maintain 30 units each of X and Y for all future rounds",
+        "insights": "Prices remain at 40, margin 15, total supply 60. No profitable deviation detected. Continue stable production for long\u2011run profit"
+      }
+    ]
+  },
+  "games": [
+    {
+      "division": 0.9,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          54.0,
+          6.0
+        ],
+        [
+          12.0,
+          48.0
+        ]
+      ],
+      "hhi_excess": 0.30246913580246915,
+      "cv_excess": 0.8,
+      "profit_excess": -0.472,
+      "joint_profit": 1320.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "transplant",
+      "seed": 100,
+      "donor": "seed0/Firm A"
+    },
+    {
+      "division": 0.8333333333333334,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          57.0,
+          3.0
+        ],
+        [
+          12.0,
+          45.0
+        ]
+      ],
+      "hhi_excess": 0.3828125,
+      "cv_excess": 0.9,
+      "profit_excess": -0.622,
+      "joint_profit": 945.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "transplant",
+      "seed": 101,
+      "donor": "seed3/Firm A"
+    },
+    {
+      "division": 0.9,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          0.0,
+          60.0
+        ],
+        [
+          54.0,
+          6.0
+        ]
+      ],
+      "hhi_excess": 0.5,
+      "cv_excess": 1.0,
+      "profit_excess": -0.472,
+      "joint_profit": 1320.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "transplant",
+      "seed": 102,
+      "donor": "seed4/Firm A"
+    },
+    {
+      "division": 0.9,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          6.0,
+          54.0
+        ],
+        [
+          60.0,
+          0.0
+        ]
+      ],
+      "hhi_excess": 0.5,
+      "cv_excess": 1.0,
+      "profit_excess": -0.472,
+      "joint_profit": 1320.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "transplant",
+      "seed": 103,
+      "donor": "seed9/Firm A"
+    },
+    {
+      "division": 1.0,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          0.0,
+          60.0
+        ],
+        [
+          60.0,
+          0.0
+        ]
+      ],
+      "hhi_excess": 0.5,
+      "cv_excess": 1.0,
+      "profit_excess": -0.28,
+      "joint_profit": 1800.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "transplant",
+      "seed": 104,
+      "donor": "seed12/Firm A"
+    },
+    {
+      "division": 1.0,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          0.0,
+          60.0
+        ],
+        [
+          60.0,
+          0.0
+        ]
+      ],
+      "hhi_excess": 0.5,
+      "cv_excess": 1.0,
+      "profit_excess": -0.28,
+      "joint_profit": 1800.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "transplant",
+      "seed": 105,
+      "donor": "seed24/Firm A"
+    },
+    {
+      "division": 0.5166666666666667,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          42.0,
+          12.0
+        ],
+        [
+          27.0,
+          33.0
+        ]
+      ],
+      "hhi_excess": 0.10888888888888881,
+      "cv_excess": 0.5555555555555556,
+      "profit_excess": -1.156,
+      "joint_profit": -390.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "control",
+      "seed": 100,
+      "donor": "seed1/Firm A"
+    },
+    {
+      "division": 0.4,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          18.0,
+          42.0
+        ],
+        [
+          42.0,
+          18.0
+        ]
+      ],
+      "hhi_excess": 0.07999999999999996,
+      "cv_excess": 0.4,
+      "profit_excess": -1.432,
+      "joint_profit": -1080.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "control",
+      "seed": 101,
+      "donor": "seed2/Firm A"
+    },
+    {
+      "division": 0.0,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          30.0,
+          30.0
+        ],
+        [
+          30.0,
+          30.0
+        ]
+      ],
+      "hhi_excess": 0.0,
+      "cv_excess": 0.0,
+      "profit_excess": -0.28,
+      "joint_profit": 1800.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "control",
+      "seed": 102,
+      "donor": "seed5/Firm A"
+    },
+    {
+      "division": 0.5333333333333334,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          36.0,
+          24.0
+        ],
+        [
+          42.0,
+          18.0
+        ]
+      ],
+      "hhi_excess": 0.010204081632652962,
+      "cv_excess": 0.4,
+      "profit_excess": -1.192,
+      "joint_profit": -480.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "control",
+      "seed": 103,
+      "donor": "seed6/Firm A"
+    },
+    {
+      "division": 0.0,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          30.0,
+          30.0
+        ],
+        [
+          30.0,
+          30.0
+        ]
+      ],
+      "hhi_excess": 0.0,
+      "cv_excess": 0.0,
+      "profit_excess": -0.28,
+      "joint_profit": 1800.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "control",
+      "seed": 104,
+      "donor": "seed7/Firm A"
+    },
+    {
+      "division": 0.010885341074020338,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          23.0,
+          22.0
+        ],
+        [
+          30.0,
+          30.0
+        ]
+      ],
+      "hhi_excess": 0.011834319526627168,
+      "cv_excess": 0.022222222222222223,
+      "profit_excess": -0.05520000000000003,
+      "joint_profit": 2362.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "control",
+      "seed": 105,
+      "donor": "seed8/Firm A"
+    },
+    {
+      "division": 0.0,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          30.0,
+          30.0
+        ],
+        [
+          30.0,
+          30.0
+        ]
+      ],
+      "hhi_excess": 0.0,
+      "cv_excess": 0.0,
+      "profit_excess": -0.28,
+      "joint_profit": 1800.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "empty",
+      "seed": 100,
+      "donor": null
+    },
+    {
+      "division": 0.25,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          10.0,
+          30.0
+        ],
+        [
+          30.0,
+          30.0
+        ]
+      ],
+      "hhi_excess": 0.125,
+      "cv_excess": 0.5,
+      "profit_excess": -0.07999999999999996,
+      "joint_profit": 2300.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "empty",
+      "seed": 101,
+      "donor": null
+    },
+    {
+      "division": 1.0,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          60.0,
+          0.0
+        ],
+        [
+          0.0,
+          60.0
+        ]
+      ],
+      "hhi_excess": 0.5,
+      "cv_excess": 1.0,
+      "profit_excess": -0.28,
+      "joint_profit": 1800.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "empty",
+      "seed": 102,
+      "donor": null
+    },
+    {
+      "division": 0.0,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          30.0,
+          30.0
+        ],
+        [
+          30.0,
+          30.0
+        ]
+      ],
+      "hhi_excess": 0.0,
+      "cv_excess": 0.0,
+      "profit_excess": -0.28,
+      "joint_profit": 1800.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "empty",
+      "seed": 103,
+      "donor": null
+    },
+    {
+      "division": 0.3833333333333333,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          18.0,
+          36.0
+        ],
+        [
+          30.0,
+          30.0
+        ]
+      ],
+      "hhi_excess": 0.03125,
+      "cv_excess": 0.3333333333333333,
+      "profit_excess": -1.42,
+      "joint_profit": -1050.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "empty",
+      "seed": 104,
+      "donor": null
+    },
+    {
+      "division": 1.0,
+      "nash_division": 0.0,
+      "mean_Q": [
+        [
+          0.0,
+          60.0
+        ],
+        [
+          60.0,
+          0.0
+        ]
+      ],
+      "hhi_excess": 0.5,
+      "cv_excess": 1.0,
+      "profit_excess": -0.28,
+      "joint_profit": 1800.0,
+      "nash_joint_profit": 2500.0,
+      "nash_Q": [
+        [
+          25.0,
+          25.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "arm": "empty",
+      "seed": 105,
+      "donor": null
+    }
+  ],
+  "arms": {
+    "transplant": {
+      "n": 6,
+      "split": 6,
+      "mean_division": 0.9222222222222222
+    },
+    "control": {
+      "n": 6,
+      "split": 0,
+      "mean_division": 0.24348089017900343
+    },
+    "empty": {
+      "n": 6,
+      "split": 2,
+      "mean_division": 0.4388888888888889
+    }
+  }
+}

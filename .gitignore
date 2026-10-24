@@ -1,0 +1,15 @@
+runs/
+cache/
+.env
+__pycache__/
+*.pyc
+papers/*.txt
+papers/*.pdf
+papers/aaai.html
+kaggle/kev_out*/
+paper/main.log
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.out
+.pytest_cache/

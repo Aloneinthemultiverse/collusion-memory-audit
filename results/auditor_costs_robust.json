@@ -1,0 +1,51 @@
+{
+ "per_game": [
+  {
+   "game": "seed0",
+   "n": 6,
+   "robust": 1,
+   "random": 3.5,
+   "heuristic": 6,
+   "laya": 6,
+   "kev-4b": 2,
+   "kev-0.8b": 2
+  },
+  {
+   "game": "seed3",
+   "n": 6,
+   "robust": 2,
+   "random": 2.33,
+   "heuristic": 4,
+   "laya": 5,
+   "kev-4b": 1,
+   "kev-0.8b": 1
+  },
+  {
+   "game": "seed4",
+   "n": 6,
+   "robust": 2,
+   "random": 2.33,
+   "heuristic": 5,
+   "laya": 5,
+   "kev-4b": 1,
+   "kev-0.8b": 1
+  },
+  {
+   "game": "seed9",
+   "n": 6,
+   "robust": 1,
+   "random": 3.5,
+   "heuristic": 3,
+   "laya": 5,
+   "kev-4b": 2,
+   "kev-0.8b": 2
+  }
+ ],
+ "total": {
+  "random": 11.66,
+  "heuristic": 18,
+  "laya": 21,
+  "kev-4b": 6,
+  "kev-0.8b": 6
+ }
+}

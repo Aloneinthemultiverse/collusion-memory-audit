@@ -1,0 +1,241 @@
+{
+  "games": [
+    {
+      "arm": "transplant",
+      "seed": 100,
+      "division": 0.9,
+      "donor": "seed0/Firm A",
+      "a_focus": 0.9,
+      "b_other_good": 0.8,
+      "a_focus_round1": 1.0,
+      "split_onset": 17
+    },
+    {
+      "arm": "transplant",
+      "seed": 101,
+      "division": 0.8333333333333334,
+      "donor": "seed3/Firm A",
+      "a_focus": 0.95,
+      "b_other_good": 0.7894736842105263,
+      "a_focus_round1": 1.0,
+      "split_onset": 16
+    },
+    {
+      "arm": "transplant",
+      "seed": 102,
+      "division": 0.9,
+      "donor": "seed4/Firm A",
+      "a_focus": 1.0,
+      "b_other_good": 0.9,
+      "a_focus_round1": 1.0,
+      "split_onset": 21
+    },
+    {
+      "arm": "transplant",
+      "seed": 103,
+      "division": 0.9,
+      "donor": "seed9/Firm A",
+      "a_focus": 0.9,
+      "b_other_good": 1.0,
+      "a_focus_round1": 1.0,
+      "split_onset": 24
+    },
+    {
+      "arm": "transplant",
+      "seed": 104,
+      "division": 1.0,
+      "donor": "seed12/Firm A",
+      "a_focus": 1.0,
+      "b_other_good": 1.0,
+      "a_focus_round1": 1.0,
+      "split_onset": 15
+    },
+    {
+      "arm": "transplant",
+      "seed": 105,
+      "division": 1.0,
+      "donor": "seed24/Firm A",
+      "a_focus": 1.0,
+      "b_other_good": 1.0,
+      "a_focus_round1": 1.0,
+      "split_onset": 4
+    },
+    {
+      "arm": "control",
+      "seed": 100,
+      "division": 0.5166666666666667,
+      "donor": "seed1/Firm A",
+      "a_focus": 0.7777777777777778,
+      "b_other_good": 0.55,
+      "a_focus_round1": 1.0,
+      "split_onset": 27
+    },
+    {
+      "arm": "control",
+      "seed": 101,
+      "division": 0.4,
+      "donor": "seed2/Firm A",
+      "a_focus": 0.7,
+      "b_other_good": 0.7,
+      "a_focus_round1": 0.5,
+      "split_onset": 29
+    },
+    {
+      "arm": "control",
+      "seed": 102,
+      "division": 0.0,
+      "donor": "seed5/Firm A",
+      "a_focus": 0.5,
+      "b_other_good": 0.5,
+      "a_focus_round1": 0.5,
+      "split_onset": null
+    },
+    {
+      "arm": "control",
+      "seed": 103,
+      "division": 0.5333333333333334,
+      "donor": "seed6/Firm A",
+      "a_focus": 0.6,
+      "b_other_good": 0.3,
+      "a_focus_round1": 1.0,
+      "split_onset": null
+    },
+    {
+      "arm": "control",
+      "seed": 104,
+      "division": 0.0,
+      "donor": "seed7/Firm A",
+      "a_focus": 0.5,
+      "b_other_good": 0.5,
+      "a_focus_round1": 0.5,
+      "split_onset": null
+    },
+    {
+      "arm": "control",
+      "seed": 105,
+      "division": 0.010885341074020338,
+      "donor": "seed8/Firm A",
+      "a_focus": 0.5111111111111111,
+      "b_other_good": 0.5,
+      "a_focus_round1": 0.5,
+      "split_onset": null
+    },
+    {
+      "arm": "empty",
+      "seed": 100,
+      "division": 0.0,
+      "donor": null,
+      "a_focus": 0.5,
+      "b_other_good": 0.5,
+      "a_focus_round1": 0.5,
+      "split_onset": null
+    },
+    {
+      "arm": "empty",
+      "seed": 101,
+      "division": 0.25,
+      "donor": null,
+      "a_focus": 0.75,
+      "b_other_good": 0.5,
+      "a_focus_round1": 0.5,
+      "split_onset": null
+    },
+    {
+      "arm": "empty",
+      "seed": 102,
+      "division": 1.0,
+      "donor": null,
+      "a_focus": 1.0,
+      "b_other_good": 1.0,
+      "a_focus_round1": 1.0,
+      "split_onset": 4
+    },
+    {
+      "arm": "empty",
+      "seed": 103,
+      "division": 0.0,
+      "donor": null,
+      "a_focus": 0.5,
+      "b_other_good": 0.5,
+      "a_focus_round1": 0.5,
+      "split_onset": null
+    },
+    {
+      "arm": "empty",
+      "seed": 104,
+      "division": 0.3833333333333333,
+      "donor": null,
+      "a_focus": 0.6666666666666666,
+      "b_other_good": 0.5,
+      "a_focus_round1": 0.5,
+      "split_onset": null
+    },
+    {
+      "arm": "empty",
+      "seed": 105,
+      "division": 1.0,
+      "donor": null,
+      "a_focus": 1.0,
+      "b_other_good": 1.0,
+      "a_focus_round1": 1.0,
+      "split_onset": 4
+    }
+  ],
+  "arms": {
+    "transplant": {
+      "split": 6,
+      "n": 6,
+      "mean_division": 0.9222222222222222,
+      "mean_b_other": 0.9149122807017545,
+      "mean_a_focus_r1": 1.0,
+      "onsets": [
+        17,
+        16,
+        21,
+        24,
+        15,
+        4
+      ]
+    },
+    "control": {
+      "split": 0,
+      "n": 6,
+      "mean_division": 0.24348089017900343,
+      "mean_b_other": 0.5083333333333333,
+      "mean_a_focus_r1": 0.6666666666666666,
+      "onsets": [
+        27,
+        29,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "empty": {
+      "split": 2,
+      "n": 6,
+      "mean_division": 0.4388888888888889,
+      "mean_b_other": 0.6666666666666666,
+      "mean_a_focus_r1": 0.6666666666666666,
+      "onsets": [
+        null,
+        null,
+        4,
+        null,
+        null,
+        4
+      ]
+    }
+  },
+  "tests": {
+    "control": {
+      "fisher_p": 0.0021645021645021645,
+      "mannwhitney_p": 0.004624228801499123
+    },
+    "empty": {
+      "fisher_p": 0.06060606060606061,
+      "mannwhitney_p": 0.2172959010432619
+    }
+  }
+}

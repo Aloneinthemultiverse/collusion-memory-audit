@@ -1,0 +1,47 @@
+[
+  {
+    "game": "seed0",
+    "n": 6,
+    "verified": 1,
+    "random (expected)": 3.5,
+    "heuristic": 6,
+    "random (1 draw)": 5,
+    "laya": 6
+  },
+  {
+    "game": "seed12",
+    "n": 6,
+    "verified": 0,
+    "random (expected)": null,
+    "heuristic": null,
+    "random (1 draw)": null,
+    "laya": null
+  },
+  {
+    "game": "seed3",
+    "n": 6,
+    "verified": 3,
+    "random (expected)": 1.75,
+    "heuristic": 1,
+    "random (1 draw)": 2,
+    "laya": 2
+  },
+  {
+    "game": "seed4",
+    "n": 6,
+    "verified": 3,
+    "random (expected)": 1.75,
+    "heuristic": 2,
+    "random (1 draw)": 4,
+    "laya": 1
+  },
+  {
+    "game": "seed9",
+    "n": 6,
+    "verified": 2,
+    "random (expected)": 2.3333333333333335,
+    "heuristic": 1,
+    "random (1 draw)": 1,
+    "laya": 1
+  }
+]

@@ -1,0 +1,510 @@
+{
+ "jaredpalmer/kev-0.8b": [
+  {
+   "game": "bertrand/seed1",
+   "id": "rival_history:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.942,
+   "p_noul": 0.7674
+  },
+  {
+   "game": "bertrand/seed1",
+   "id": "rival_history:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.9274,
+   "p_noul": 0.7379
+  },
+  {
+   "game": "bertrand/seed1",
+   "id": "board:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.8477,
+   "p_noul": 0.5092
+  },
+  {
+   "game": "bertrand/seed1",
+   "id": "board:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.9092,
+   "p_noul": 0.6054
+  },
+  {
+   "game": "bertrand/seed1",
+   "id": "memory:Firm A->Firm A@10",
+   "verified": false,
+   "p_choice": 0.8542,
+   "p_noul": 0.6295
+  },
+  {
+   "game": "bertrand/seed1",
+   "id": "memory:Firm B->Firm B@10",
+   "verified": false,
+   "p_choice": 0.8886,
+   "p_noul": 0.686
+  },
+  {
+   "game": "sym/seed0",
+   "id": "rival_history:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.1922,
+   "p_noul": 0.2947
+  },
+  {
+   "game": "sym/seed0",
+   "id": "rival_history:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.2397,
+   "p_noul": 0.3383
+  },
+  {
+   "game": "sym/seed0",
+   "id": "board:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.4207,
+   "p_noul": 0.357
+  },
+  {
+   "game": "sym/seed0",
+   "id": "board:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.4284,
+   "p_noul": 0.4079
+  },
+  {
+   "game": "sym/seed0",
+   "id": "memory:Firm A->Firm A@10",
+   "verified": false,
+   "p_choice": 0.8958,
+   "p_noul": 0.6832
+  },
+  {
+   "game": "sym/seed0",
+   "id": "memory:Firm B->Firm B@10",
+   "verified": true,
+   "p_choice": 0.8792,
+   "p_noul": 0.6413
+  },
+  {
+   "game": "sym/seed12",
+   "id": "rival_history:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.2801,
+   "p_noul": 0.3729
+  },
+  {
+   "game": "sym/seed12",
+   "id": "rival_history:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.4791,
+   "p_noul": 0.4724
+  },
+  {
+   "game": "sym/seed12",
+   "id": "board:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.5094,
+   "p_noul": 0.3581
+  },
+  {
+   "game": "sym/seed12",
+   "id": "board:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.8288,
+   "p_noul": 0.4598
+  },
+  {
+   "game": "sym/seed12",
+   "id": "memory:Firm A->Firm A@10",
+   "verified": false,
+   "p_choice": 0.8394,
+   "p_noul": 0.5907
+  },
+  {
+   "game": "sym/seed12",
+   "id": "memory:Firm B->Firm B@10",
+   "verified": false,
+   "p_choice": 0.8252,
+   "p_noul": 0.5835
+  },
+  {
+   "game": "sym/seed3",
+   "id": "rival_history:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.8931,
+   "p_noul": 0.7165
+  },
+  {
+   "game": "sym/seed3",
+   "id": "rival_history:Firm B->Firm A@10",
+   "verified": true,
+   "p_choice": 0.915,
+   "p_noul": 0.7407
+  },
+  {
+   "game": "sym/seed3",
+   "id": "board:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.833,
+   "p_noul": 0.552
+  },
+  {
+   "game": "sym/seed3",
+   "id": "board:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.9156,
+   "p_noul": 0.6026
+  },
+  {
+   "game": "sym/seed3",
+   "id": "memory:Firm A->Firm A@10",
+   "verified": true,
+   "p_choice": 0.9171,
+   "p_noul": 0.717
+  },
+  {
+   "game": "sym/seed3",
+   "id": "memory:Firm B->Firm B@10",
+   "verified": true,
+   "p_choice": 0.9166,
+   "p_noul": 0.7825
+  },
+  {
+   "game": "sym/seed4",
+   "id": "rival_history:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.2801,
+   "p_noul": 0.3729
+  },
+  {
+   "game": "sym/seed4",
+   "id": "rival_history:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.4791,
+   "p_noul": 0.4724
+  },
+  {
+   "game": "sym/seed4",
+   "id": "board:Firm A->Firm B@10",
+   "verified": true,
+   "p_choice": 0.5429,
+   "p_noul": 0.4159
+  },
+  {
+   "game": "sym/seed4",
+   "id": "board:Firm B->Firm A@10",
+   "verified": true,
+   "p_choice": 0.7794,
+   "p_noul": 0.478
+  },
+  {
+   "game": "sym/seed4",
+   "id": "memory:Firm A->Firm A@10",
+   "verified": false,
+   "p_choice": 0.8669,
+   "p_noul": 0.6473
+  },
+  {
+   "game": "sym/seed4",
+   "id": "memory:Firm B->Firm B@10",
+   "verified": true,
+   "p_choice": 0.8959,
+   "p_noul": 0.6225
+  },
+  {
+   "game": "sym/seed9",
+   "id": "rival_history:Firm A->Firm B@10",
+   "verified": true,
+   "p_choice": 0.724,
+   "p_noul": 0.5438
+  },
+  {
+   "game": "sym/seed9",
+   "id": "rival_history:Firm B->Firm A@10",
+   "verified": true,
+   "p_choice": 0.9318,
+   "p_noul": 0.7622
+  },
+  {
+   "game": "sym/seed9",
+   "id": "board:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.7574,
+   "p_noul": 0.376
+  },
+  {
+   "game": "sym/seed9",
+   "id": "board:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.8841,
+   "p_noul": 0.529
+  },
+  {
+   "game": "sym/seed9",
+   "id": "memory:Firm A->Firm A@10",
+   "verified": false,
+   "p_choice": 0.9013,
+   "p_noul": 0.6889
+  },
+  {
+   "game": "sym/seed9",
+   "id": "memory:Firm B->Firm B@10",
+   "verified": false,
+   "p_choice": 0.9075,
+   "p_noul": 0.6723
+  }
+ ],
+ "jaredpalmer/kev-4b": [
+  {
+   "game": "bertrand/seed1",
+   "id": "rival_history:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.942,
+   "p_noul": 0.7674
+  },
+  {
+   "game": "bertrand/seed1",
+   "id": "rival_history:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.9274,
+   "p_noul": 0.7379
+  },
+  {
+   "game": "bertrand/seed1",
+   "id": "board:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.8477,
+   "p_noul": 0.5092
+  },
+  {
+   "game": "bertrand/seed1",
+   "id": "board:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.9092,
+   "p_noul": 0.6054
+  },
+  {
+   "game": "bertrand/seed1",
+   "id": "memory:Firm A->Firm A@10",
+   "verified": false,
+   "p_choice": 0.8542,
+   "p_noul": 0.6295
+  },
+  {
+   "game": "bertrand/seed1",
+   "id": "memory:Firm B->Firm B@10",
+   "verified": false,
+   "p_choice": 0.8886,
+   "p_noul": 0.686
+  },
+  {
+   "game": "sym/seed0",
+   "id": "rival_history:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.1922,
+   "p_noul": 0.2947
+  },
+  {
+   "game": "sym/seed0",
+   "id": "rival_history:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.2397,
+   "p_noul": 0.3383
+  },
+  {
+   "game": "sym/seed0",
+   "id": "board:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.4207,
+   "p_noul": 0.357
+  },
+  {
+   "game": "sym/seed0",
+   "id": "board:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.4284,
+   "p_noul": 0.4079
+  },
+  {
+   "game": "sym/seed0",
+   "id": "memory:Firm A->Firm A@10",
+   "verified": false,
+   "p_choice": 0.8958,
+   "p_noul": 0.6832
+  },
+  {
+   "game": "sym/seed0",
+   "id": "memory:Firm B->Firm B@10",
+   "verified": true,
+   "p_choice": 0.8792,
+   "p_noul": 0.6413
+  },
+  {
+   "game": "sym/seed12",
+   "id": "rival_history:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.2801,
+   "p_noul": 0.3729
+  },
+  {
+   "game": "sym/seed12",
+   "id": "rival_history:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.4791,
+   "p_noul": 0.4724
+  },
+  {
+   "game": "sym/seed12",
+   "id": "board:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.5094,
+   "p_noul": 0.3581
+  },
+  {
+   "game": "sym/seed12",
+   "id": "board:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.8288,
+   "p_noul": 0.4598
+  },
+  {
+   "game": "sym/seed12",
+   "id": "memory:Firm A->Firm A@10",
+   "verified": false,
+   "p_choice": 0.8394,
+   "p_noul": 0.5907
+  },
+  {
+   "game": "sym/seed12",
+   "id": "memory:Firm B->Firm B@10",
+   "verified": false,
+   "p_choice": 0.8252,
+   "p_noul": 0.5835
+  },
+  {
+   "game": "sym/seed3",
+   "id": "rival_history:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.8931,
+   "p_noul": 0.7165
+  },
+  {
+   "game": "sym/seed3",
+   "id": "rival_history:Firm B->Firm A@10",
+   "verified": true,
+   "p_choice": 0.915,
+   "p_noul": 0.7407
+  },
+  {
+   "game": "sym/seed3",
+   "id": "board:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.833,
+   "p_noul": 0.552
+  },
+  {
+   "game": "sym/seed3",
+   "id": "board:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.9156,
+   "p_noul": 0.6026
+  },
+  {
+   "game": "sym/seed3",
+   "id": "memory:Firm A->Firm A@10",
+   "verified": true,
+   "p_choice": 0.9171,
+   "p_noul": 0.717
+  },
+  {
+   "game": "sym/seed3",
+   "id": "memory:Firm B->Firm B@10",
+   "verified": true,
+   "p_choice": 0.9166,
+   "p_noul": 0.7825
+  },
+  {
+   "game": "sym/seed4",
+   "id": "rival_history:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.2801,
+   "p_noul": 0.3729
+  },
+  {
+   "game": "sym/seed4",
+   "id": "rival_history:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.4791,
+   "p_noul": 0.4724
+  },
+  {
+   "game": "sym/seed4",
+   "id": "board:Firm A->Firm B@10",
+   "verified": true,
+   "p_choice": 0.5429,
+   "p_noul": 0.4159
+  },
+  {
+   "game": "sym/seed4",
+   "id": "board:Firm B->Firm A@10",
+   "verified": true,
+   "p_choice": 0.7794,
+   "p_noul": 0.478
+  },
+  {
+   "game": "sym/seed4",
+   "id": "memory:Firm A->Firm A@10",
+   "verified": false,
+   "p_choice": 0.8669,
+   "p_noul": 0.6473
+  },
+  {
+   "game": "sym/seed4",
+   "id": "memory:Firm B->Firm B@10",
+   "verified": true,
+   "p_choice": 0.8959,
+   "p_noul": 0.6225
+  },
+  {
+   "game": "sym/seed9",
+   "id": "rival_history:Firm A->Firm B@10",
+   "verified": true,
+   "p_choice": 0.724,
+   "p_noul": 0.5438
+  },
+  {
+   "game": "sym/seed9",
+   "id": "rival_history:Firm B->Firm A@10",
+   "verified": true,
+   "p_choice": 0.9318,
+   "p_noul": 0.7622
+  },
+  {
+   "game": "sym/seed9",
+   "id": "board:Firm A->Firm B@10",
+   "verified": false,
+   "p_choice": 0.7574,
+   "p_noul": 0.376
+  },
+  {
+   "game": "sym/seed9",
+   "id": "board:Firm B->Firm A@10",
+   "verified": false,
+   "p_choice": 0.8841,
+   "p_noul": 0.529
+  },
+  {
+   "game": "sym/seed9",
+   "id": "memory:Firm A->Firm A@10",
+   "verified": false,
+   "p_choice": 0.9013,
+   "p_noul": 0.6889
+  },
+  {
+   "game": "sym/seed9",
+   "id": "memory:Firm B->Firm B@10",
+   "verified": false,
+   "p_choice": 0.9075,
+   "p_noul": 0.6723
+  }
+ ]
+}
